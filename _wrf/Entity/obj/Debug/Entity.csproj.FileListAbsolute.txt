@@ -1,0 +1,8 @@
+C:\Proyectos\wrf\Entity\bin\Debug\Entity.dll
+C:\Proyectos\wrf\Entity\bin\Debug\Entity.pdb
+C:\Proyectos\wrf\Entity\obj\Debug\Entity.dll
+C:\Proyectos\wrf\Entity\obj\Debug\Entity.pdb
+C:\GitHub\wios\_wrf\Entity\bin\Debug\Entity.dll
+C:\GitHub\wios\_wrf\Entity\bin\Debug\Entity.pdb
+C:\GitHub\wios\_wrf\Entity\obj\Debug\Entity.dll
+C:\GitHub\wios\_wrf\Entity\obj\Debug\Entity.pdb

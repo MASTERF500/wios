@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Demon.master.cs" Inherits="ChihuahuaV1.rep.Demon" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../dsng/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../dsng/css/btn_index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+</head>
+
+<body style="background-color:#f1f3d8">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <br />
+        <div class="container" style="text-align: center; background-color: #F1FDDB;">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo_inifap.png" Height="100px" Width="200px" />
+        </div>
+        <br />
+        <nav class="navbar navbar-expand-lg navbar-light"  style="background-color:#F1FDDB">
+            <a class="navbar-brand" href="Inicio.aspx" style="font-family:Arial"><hr /><h3><b>Inicio</b></h3><hr /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <asp:Button ID="ButtonNuez" runat="server" Text="NUEZ" class="btnMaster" Height="40px" Width="130px" Font-Bold="True" Font-Size="Medium" OnClick="ButtonNuez_Click" />
+                    &nbsp;</li>
+                    <li class="nav-item">
+                        <asp:Button ID="ButtonRuezno" runat="server" Text="RUEZNO" class="btnMaster" Height="40px" Width="130px" Font-Bold="True" Font-Size="Medium" OnClick="ButtonRuezno_Click"/>
+                    &nbsp;</li>
+                    <li class="nav-item">
+                        <asp:Button ID="ButtonMaiz" runat="server" Text="MAIZ" class="btnMaster" Height="40px" Width="130px" Font-Bold="True" Font-Size="Medium" OnClick="ButtonMaiz_Click"/>
+                    &nbsp;</li>
+                    <li class="nav-item">
+                        <asp:Button ID="ButtonDurazno" runat="server" Text="DURAZNO" class="btnMaster" Height="40px" Width="130px" Font-Bold="True" Font-Size="Medium" OnClick="ButtonDurazno_Click" />
+                        </li>
+                &nbsp;</ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <asp:Button ID="ButtonHeladas" runat="server" Text="HELADAS" class="btnMaster" Height="40px" Width="130px" Font-Bold="True" Font-Size="Medium"/>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <%--        <div class="container" style="text-align: center">
+        
+            <asp:Button ID="nuezButton" runat="server" Text="NUEZ" class="btn btn-primary" Height="40px" Width="100px"/>
+            &nbsp;<asp:Button ID="rueznoButton" runat="server" Text="RUEZNO" class="btn-danger" Height="40px" Width="100px"/>
+            &nbsp;<asp:Button ID="maizButton" runat="server" Text="MAIZ" class="btn btn-warning" Height="40px" Width="100px"/>
+            &nbsp;<asp:Button ID="duraznoButton" runat="server" Text="DURAZNO" class="btn" Height="40px" Width="100px"/>
+            &nbsp;<asp:Button ID="heladasButton" runat="server" Text="HELADAS" class="btn" Height="40px" Width="100px"/>
+        </div>--%>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+</html>

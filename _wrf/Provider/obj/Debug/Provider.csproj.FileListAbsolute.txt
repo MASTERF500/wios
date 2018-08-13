@@ -1,0 +1,14 @@
+C:\Proyectos\wrf\Provider\obj\Debug\Provider.csprojResolveAssemblyReference.cache
+C:\Proyectos\wrf\Provider\bin\Debug\Provider.dll
+C:\Proyectos\wrf\Provider\bin\Debug\Provider.pdb
+C:\Proyectos\wrf\Provider\bin\Debug\Entity.dll
+C:\Proyectos\wrf\Provider\bin\Debug\Entity.pdb
+C:\Proyectos\wrf\Provider\obj\Debug\Provider.dll
+C:\Proyectos\wrf\Provider\obj\Debug\Provider.pdb
+C:\GitHub\wios\_wrf\Provider\bin\Debug\Provider.dll
+C:\GitHub\wios\_wrf\Provider\bin\Debug\Provider.pdb
+C:\GitHub\wios\_wrf\Provider\bin\Debug\Entity.dll
+C:\GitHub\wios\_wrf\Provider\bin\Debug\Entity.pdb
+C:\GitHub\wios\_wrf\Provider\obj\Debug\Provider.csprojResolveAssemblyReference.cache
+C:\GitHub\wios\_wrf\Provider\obj\Debug\Provider.dll
+C:\GitHub\wios\_wrf\Provider\obj\Debug\Provider.pdb
